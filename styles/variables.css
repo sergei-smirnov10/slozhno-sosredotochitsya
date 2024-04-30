@@ -2,3 +2,23 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --background-color: #FFF1F7;
+  --black-color: #353430;
+  --font-color: #353430;
+  --font-text-color: #353430;
+  --brightPing-color: #FF8DCB;
+  --nofocus-shadow-mobile: #FF8DCB;
+  --focus-color: #FFC2E6;
+  --accent-color: #FF0070;
+  --border-hover-color: rgba(50,49,45,40%);
+
+  --font: 'IBM Plex mono';
+  --fontWeight-regular: regular;
+  --fontWeight-bold: bold;
+  --fontSize: 18px;
+  /* --fontSize-nofocus: 157px; */
+  --fontSize-nofocus: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --fontSize-nofocus-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
