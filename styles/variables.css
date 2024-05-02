@@ -14,7 +14,7 @@
   --accent-color: #FF0070;
   --border-hover-color: rgba(50,49,45,40%);
 
-  --font: 'IBM Plex mono';
+  --font: 'IBM Plex mono', monospace;
   --fontWeight-regular: regular;
   --fontWeight-bold: bold;
   --fontSize: 18px;
