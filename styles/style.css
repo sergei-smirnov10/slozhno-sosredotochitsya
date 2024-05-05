@@ -18,10 +18,10 @@
 
   padding: 20px;
   display: grid;
-  grid-template-rows: 300px auto 300px;
+  grid-template-rows: 299px auto 299px;
   grid-template-columns: 1fr 1fr;
 
-  height: 100dvh;
+  min-height: 100dvh;
   width: 100%;
 
   
