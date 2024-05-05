@@ -395,9 +395,6 @@
     row-gap: 20px;
   }
 
-  .main__section-three article:first-of-type {
-    margin-top: 0;
-  }
 
   .footer {
     margin-top: 50px;
@@ -475,10 +472,11 @@
   .main__section-three article:first-of-type {
     margin-top: 0;
   }
-  .main__section-three article:first-of-type h4{
-    
+
+  .main__section-three article:first-of-type h4 {
     margin-top: 0;
   }
+
   .main__section-four {
     display: grid;
     grid-template-rows: auto 192px 230px 318px;
