@@ -173,6 +173,10 @@
   font-size: var(--fontSize);
   font-weight: var(--fontWeight-bold);
   color: var(--black-color);
+  hyphens: none;
+  -moz-hyphens: none;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
 }
 
 .section-title-secondary {
@@ -351,7 +355,7 @@
   .main {
     gap:80px
   }
-
+  
   .main__section-one {
     
     grid-template-columns: minmax(auto, 236px) auto;
@@ -399,6 +403,15 @@
   .footer {
     margin-top: 50px;
     
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section-title {
+    hyphens: manual;
+    -moz-hyphens: manual;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
   }
 }
 
@@ -452,6 +465,7 @@
 
   .section-title {
     margin-bottom: 0px;
+    
   }
   .section-title-secondary {
     margin-top: 20px;
